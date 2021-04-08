@@ -1,0 +1,29 @@
+{
+    "users": [
+        {
+            "id": 101,
+            "name": "King",
+            "age": 23
+        },
+        {
+            "id": 102,
+            "name": "Kochhar",
+            "age": 32
+        },
+        {
+            "id": 103,
+            "name": "Smith",
+            "age": 40
+        },
+        {
+            "id": 104,
+            "name": "Sarah",
+            "age": 30
+        },
+        {
+            "id": 105,
+            "name": "Bowling",
+            "age": 22
+        }
+    ]
+}
