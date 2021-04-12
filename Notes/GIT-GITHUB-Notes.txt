@@ -1,0 +1,85 @@
+
+GIT != GITHUB
+
+GIT: A Distributed version control system
+
+Version Control System Types:
+	- Centralized Version Control System
+	- Distributed Version Control System
+	
+GITHUB: A website to manage the server repositories.
+
+-------------------------------------------------------
+
+Go to the project folder:
+
+E:\TCS_WebDevelopment_March\tcs-test-project>
+
+1. To initialize GIT or local repository:
+
+	git init
+	
+2. To check the status of untracked files:
+
+	git status
+	
+3. To change the status of untracked files to the tracked files:
+
+	git add .
+
+4. To check the status again after tracking the files:
+
+	git status
+	
+5. To commit the changes:
+
+	git commit -m "First Commit"
+
+6. To pass the remote origin of server repository:
+
+	git remote add origin https://github.com/mgunwani/tcs-test-project.git
+	
+7. To push committed files and folders to the server repository:
+
+	git push origin -u master
+	git push origin -u (checkedIn-branch-name)
+	
+---------------------------------------------------------------
+
+To create new branch and checkout:
+
+1. To Check branches:
+
+	git branch
+	
+2. To create new branch:
+
+	git branch MyFirstBranch
+	
+3. To checkout to New Branch:
+
+	git checkout MyFirstBranch
+
+----------------------------------------------------------------
+
+To Merge New Branch in Master Branch:
+
+1. To checkout to master 
+
+	git checkout master
+	
+2. To merge branch
+
+	git merge MyFirstBranch
+	
+3. To make final push to master branch:
+
+	git push origin -u master
+	
+--------------------------------------------------------------
+
+
+
+
+
+
